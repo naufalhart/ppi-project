@@ -1,4 +1,4 @@
-function updateText() {
+function update() {
     const heading = document.getElementById("p-ppi");
 
     if (window.innerWidth < 768) {
@@ -8,5 +8,5 @@ function updateText() {
     }
 }
 
-updateText();
-window.addEventListener("resize", updateText);
+update();
+window.addEventListener("resize", update);

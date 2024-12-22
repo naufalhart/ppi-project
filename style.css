@@ -85,28 +85,13 @@ nav ul li a:hover {
     filter: blur(8px);
 }
 
-@media screen and (max-width: 768px) {
-    .background {
-        height: 100vh;
-    }
-
-    .psas-img {
-        width: 100vw;
-    }
-
-    .list-navbar {
-        display: none;
-    }
-}
-
 div h5 {
     position: absolute;
     color: black;
     font-family: 'Poppins';
     font-weight: 500;
-    padding-top: 100px;
     z-index: 4;
-    top: 40px;
+    top: 50px;
     left: 90px;
 }
 
@@ -122,7 +107,7 @@ div h5 a:hover {
 }
 
 .h1-title {
-    position: absolute;
+    position: relative;
     top: 6%;
     left: 7%;
     font-family: 'Poppins';
@@ -132,27 +117,22 @@ div h5 a:hover {
 
 .academic-background {
     position: absolute;
+    margin-top: 100px;
     height: 730px;
-    width: 1080px;
+    width: 90vw;
     background-color: white;
     z-index: 2;
     border-radius: 25px;
     box-shadow: 10px 10px 60px 0px rgba(0,0,0,0.75);
     -webkit-box-shadow: 10px 10px 60px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 60px 0px rgba(0,0,0,0.75);
-}
-
-.index-background {
-    position: absolute;
-    width: 30%;
-    display: grid;  
-    top: 50%;
-    left: 35%;
+    padding-top: 50px;
 }
 
 .faculties {
     list-style: none;
-    margin: 10%;
+    margin-left: 10%;
+    margin-top: 5%;
     font-family: 'Poppins';
     text-decoration: none;
     color: inherit;
@@ -211,4 +191,42 @@ div div ul li {
 .footer li:hover {
     height: 32px;
     width: 32px;
+}
+
+@media screen and (max-width: 768px) {
+    .background {
+        height: 100vh;
+    }
+
+    .psas-img {
+        width: 100vw;
+    }
+
+    .a-info {
+        display: none;
+    }
+
+    .a-about {
+        display: none;
+    }
+
+    .h1-title {
+        top: 2%;
+    }
+
+    .faculties {
+        margin-top: 5%;
+    }
+
+    .academic-background {
+        height: 770px;
+    }
+}
+
+@media screen and (max-height: 674px) {
+    .academic-background {
+        margin: 10px;
+    }
+
+    
 }
