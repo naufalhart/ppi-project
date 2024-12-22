@@ -117,7 +117,7 @@ div h5 a:hover {
 
 .academic-background {
     position: absolute;
-    margin-top: 100px;
+    margin-top: 50px;
     height: 730px;
     width: 90vw;
     background-color: white;
@@ -154,12 +154,7 @@ div div ul li {
 }
 
 .footer {
-    height: 150px;
-    background-color: #821515;
-    z-index: 2;
-    top: 0;
-    color: white;
-    position: sticky;
+    display: none;
 }
 
 .footer img {
@@ -221,12 +216,17 @@ div div ul li {
     .academic-background {
         height: 770px;
     }
-}
 
-@media screen and (max-height: 674px) {
     .academic-background {
-        margin: 10px;
+        margin-top: 30px;
     }
 
-    
+    .faculties {
+        margin-left: 15%;
+    }
+
+    div h5 {
+        top: 35px;
+        left: 80px;
+    }
 }
