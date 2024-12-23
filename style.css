@@ -248,6 +248,8 @@ div div ul li {
 
     div h5 {
         top: 35px;
-        left: 80px;
+        left: 30px;
+        white-space: nowrap;
+        overflow-x: auto;
     }
 }
