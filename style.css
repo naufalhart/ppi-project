@@ -83,6 +83,8 @@ nav ul li a:hover {
 .psas-img {
     width: 100%;
     filter: blur(8px);
+    max-width: 100vw;
+    width: 100%;
 }
 
 div h5 {
@@ -115,6 +117,16 @@ div h5 a:hover {
     z-index: 4;
 }
 
+.h1-title a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.h1-title a:hover {
+    font-weight: 700;
+    color: #821515;
+}
+
 .academic-background {
     position: absolute;
     margin-top: 50px;
@@ -127,6 +139,10 @@ div h5 a:hover {
     -webkit-box-shadow: 10px 10px 60px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 60px 0px rgba(0,0,0,0.75);
     padding-top: 50px;
+    max-width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: hidden;
 }
 
 .faculties {
@@ -186,6 +202,11 @@ div div ul li {
 .footer li:hover {
     height: 32px;
     width: 32px;
+}
+
+.list-logo {
+    width: 20px;
+    margin-right: 10px;
 }
 
 @media screen and (max-width: 768px) {
